@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Taller Operaciones</string>
+
+    <string name="options">Opciones</string>
+    <string name="areas">Areas</string>
+    <string name="volumes">Volumenes</string>
+    <string name="operations_performed">Operaciones Realizadas</string>
+
+    <string name="calculate">Calcular</string>
+    <string name="delete">Borrar</string>
+    <string name="result">Resultado</string>
+    <string name="ok">ok</string>
+    <string name="carried_out">Realizadas</string>
+    <string name="data">Datos</string>
+
+    <string name="square">Cuadrado</string>
+    <string name="rectangle">Rectangulo</string>
+    <string name="triangle">Triangulo</string>
+    <string name="circle">Circulo</string>
+
+    <string name="sphere">Esfera</string>
+    <string name="cylinder">Cilindro</string>
+    <string name="cone">Cono</string>
+    <string name="cube">Cubo</string>
+    <string name="areas_title" />
+    <string name="square_side">Valor del lado</string>
+    <string name="base">Base</string>
+    <string name="height">Altura</string>
+    <string name="radio">Radio</string>
+
+    <string-array name="home_options">
+        <item>@string/areas</item>
+        <item>@string/volumes</item>
+        <item>@string/operations_performed</item>
+    </string-array>
+
+    <string-array name="area_options">
+        <item>@string/square</item>
+        <item>@string/rectangle</item>
+        <item>@string/triangle</item>
+        <item>@string/circle</item>
+    </string-array>
+
+    <string-array name="volumne_options">
+        <item>@string/sphere</item>
+        <item>@string/cylinder</item>
+        <item>@string/cone</item>
+        <item>@string/cube</item>
+    </string-array>
+</resources>

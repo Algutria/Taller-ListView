@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Taller Operaciones</string>
+
+    <string name="options">Options</string>
+    <string name="areas">Areas</string>
+    <string name="volumes">Volumes</string>
+    <string name="operations_performed">Operations Performed</string>
+
+    <string name="calculate">Calculate</string>
+    <string name="delete">Delete</string>
+    <string name="result">Result</string>
+    <string name="ok">ok</string>
+    <string name="carried_out">Carried out</string>
+    <string name="data">Data</string>
+
+    <string name="square">Square</string>
+    <string name="rectangle">Rectangle</string>
+    <string name="triangle">Triangle</string>
+    <string name="circle">Circle</string>
+
+    <string name="sphere">Sphere</string>
+    <string name="cylinder">Cylinder</string>
+    <string name="cone">Cone</string>
+    <string name="cube">Cube</string>
+    <string name="square_side">Size value</string>
+    <string name="base">Base</string>
+    <string name="height">Height</string>
+    <string name="radio">Radio</string>
+</resources>
