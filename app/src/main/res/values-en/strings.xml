@@ -3,6 +3,7 @@
     <string name="app_name">Taller Operaciones</string>
 
     <string name="options">Options</string>
+    <string name="area">Area</string>
     <string name="areas">Areas</string>
     <string name="volumes">Volumes</string>
     <string name="operations_performed">Operations Performed</string>

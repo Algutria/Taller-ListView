@@ -60,6 +60,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="calculateSquareArea"
                 android:text="@string/calculate" />
 
             <Button
@@ -136,6 +137,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="calculateRectangleArea"
                 android:text="@string/calculate" />
 
             <Button
@@ -211,6 +213,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="calculatetriangleArea"
                 android:text="@string/calculate" />
 
             <Button
@@ -263,6 +266,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="calculateCircleArea"
                 android:text="@string/calculate" />
 
             <Button

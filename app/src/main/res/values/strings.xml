@@ -2,6 +2,7 @@
     <string name="app_name">Taller Operaciones</string>
 
     <string name="options">Opciones</string>
+    <string name="area">Area</string>
     <string name="areas">Areas</string>
     <string name="volumes">Volumenes</string>
     <string name="operations_performed">Operaciones Realizadas</string>
@@ -27,6 +28,9 @@
     <string name="base">Base</string>
     <string name="height">Altura</string>
     <string name="radio">Radio</string>
+    <string name="blank_quantity">El Valor no puede ser vacio</string>
+    <string name="quantity_greater_than_zero">El Valor debe ser mayor que cero</string>
+
 
     <string-array name="home_options">
         <item>@string/areas</item>
