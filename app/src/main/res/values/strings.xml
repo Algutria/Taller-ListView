@@ -5,6 +5,7 @@
     <string name="area">Area</string>
     <string name="areas">Areas</string>
     <string name="volumes">Volumenes</string>
+    <string name="volume">Volumen</string>
     <string name="operations_performed">Operaciones Realizadas</string>
 
     <string name="calculate">Calcular</string>
@@ -23,11 +24,15 @@
     <string name="cylinder">Cilindro</string>
     <string name="cone">Cono</string>
     <string name="cube">Cubo</string>
+
     <string name="areas_title" />
+    <string name="volumes_title" />
+
     <string name="square_side">Valor del lado</string>
     <string name="base">Base</string>
     <string name="height">Altura</string>
     <string name="radio">Radio</string>
+
     <string name="blank_quantity">El Valor no puede ser vacio</string>
     <string name="quantity_greater_than_zero">El Valor debe ser mayor que cero</string>
 
@@ -40,6 +45,11 @@
     <string name="rectangle_area_op">Area del Rectangulo</string>
     <string name="circle_area_op">Area del Circulo</string>
     <string name="triangle_area_op">Area del Triangulo</string>
+
+    <string name="sphere_volume_op">Volumen de Esfera</string>
+    <string name="cylinder_volume_op">Volumen de Cilindro</string>
+    <string name="cone_volume_op">Volumen de Cono</string>
+    <string name="cube_volume_op">Volumen de Cubo</string>
 
 
     <string-array name="home_options">
