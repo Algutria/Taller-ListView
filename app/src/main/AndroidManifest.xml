@@ -19,7 +19,7 @@
         <activity android:name=".Areas" />
         <activity android:name=".OperationsPerformed" />
         <activity android:name=".Volumes" />
-        <activity android:name=".AreasCalculator"></activity>
+        <activity android:name=".AreasCalculator" />
     </application>
 
 </manifest>

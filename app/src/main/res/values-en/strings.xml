@@ -24,8 +24,11 @@
     <string name="cylinder">Cylinder</string>
     <string name="cone">Cone</string>
     <string name="cube">Cube</string>
-    <string name="square_side">Size value</string>
+    <string name="square_side">Side value</string>
     <string name="base">Base</string>
     <string name="height">Height</string>
     <string name="radio">Radio</string>
+
+    <string name="square_side_op">Square side</string>
+    <string name="side">Side</string>
 </resources>

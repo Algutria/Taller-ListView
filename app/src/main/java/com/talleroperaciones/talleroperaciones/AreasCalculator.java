@@ -5,12 +5,10 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class AreasCalculator extends AppCompatActivity {
     private TextView title;
@@ -90,6 +88,10 @@ public class AreasCalculator extends AppCompatActivity {
         if(isAValidValue(squareSize)){
             Double squareSizeValue = Double.parseDouble(squareSize.getText().toString());
             Double result = squareSizeValue * squareSizeValue;
+            String sideTxt = getResources().getString(R.string.side) + ": " + squareSizeValue;
+
+            String[] data = { sideTxt };
+            sendOperation(getResources().getString(R.string.square_area_op), data, result +  "");
 
             showResult(result);
         }
@@ -100,16 +102,26 @@ public class AreasCalculator extends AppCompatActivity {
             Double rectangleBaseValue = Double.parseDouble(rectangleBase.getText().toString());
             Double rectangleHeightValue = Double.parseDouble(rectangleHeight.getText().toString());
             Double result = rectangleBaseValue * rectangleHeightValue;
+            String baseTxt = getResources().getString(R.string.base) + ": " + rectangleBaseValue;
+            String heightTxt = getResources().getString(R.string.height) + ": " + rectangleHeightValue;
+
+            String[] data = {baseTxt , heightTxt};
+            sendOperation(getResources().getString(R.string.rectangle_area_op), data, result +  "");
 
             showResult(result);
         }
     }
 
-    public void calculatetriangleArea(View v){
+    public void calculateTriangleArea(View v){
         if(isAValidValue(triangleBase) && isAValidValue(triangleHeight)) {
             Double triangleBaseValue = Double.parseDouble(triangleBase.getText().toString());
             Double triangleHeightValue = Double.parseDouble(triangleHeight.getText().toString());
             Double result = triangleBaseValue * triangleHeightValue / 2;
+            String baseTxt = getResources().getString(R.string.base) + ": " + triangleBaseValue;
+            String heightTxt = getResources().getString(R.string.height) + ": " + triangleHeightValue;
+
+            String[] data = {baseTxt , heightTxt};
+            sendOperation(getResources().getString(R.string.triangle_area_op), data, result +  "");
 
             showResult(result);
         }
@@ -119,6 +131,10 @@ public class AreasCalculator extends AppCompatActivity {
         if(isAValidValue(circleRadio)) {
             Double circleRadioValue = Double.parseDouble(circleRadio.getText().toString());
             Double result = 3.14 * Math.pow(2, circleRadioValue);
+            String radioTxt = getResources().getString(R.string.radio) + ": " + circleRadioValue;
+
+            String[] data = { radioTxt };
+            sendOperation(getResources().getString(R.string.circle_area_op), data, result +  "");
 
             showResult(result);
         }
@@ -138,5 +154,19 @@ public class AreasCalculator extends AppCompatActivity {
         }
 
         return true;
+    }
+
+    public void clear(View v) {
+        squareSize.setText("");
+        rectangleBase.setText("");
+        rectangleHeight.setText("");
+        triangleBase.setText("");
+        triangleHeight.setText("");
+        circleRadio.setText("");
+    }
+
+    public void sendOperation(String operation, String[] data, String result){
+        Operation op = new Operation(operation, data, result);
+        op.save();
     }
 }

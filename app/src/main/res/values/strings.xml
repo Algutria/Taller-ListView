@@ -31,6 +31,16 @@
     <string name="blank_quantity">El Valor no puede ser vacio</string>
     <string name="quantity_greater_than_zero">El Valor debe ser mayor que cero</string>
 
+    <string name="square_area_op">Area del Cuadrado</string>
+    <string name="side">Lado</string>
+    <string name="op_counter">No</string>
+    <string name="op_operation">No</string>
+    <string name="operation">Operacion</string>
+
+    <string name="rectangle_area_op">Area del Rectangulo</string>
+    <string name="circle_area_op">Area del Circulo</string>
+    <string name="triangle_area_op">Area del Triangulo</string>
+
 
     <string-array name="home_options">
         <item>@string/areas</item>

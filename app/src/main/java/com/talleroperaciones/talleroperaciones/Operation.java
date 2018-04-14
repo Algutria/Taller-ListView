@@ -2,10 +2,10 @@ package com.talleroperaciones.talleroperaciones;
 
 public class Operation {
     private String operation;
-    private String data;
+    private String[] data;
     private String result;
 
-    public Operation(String operation, String data, String result){
+    public Operation(String operation, String[] data, String result) {
         this.operation = operation;
         this.data = data;
         this.result = result;
@@ -15,7 +15,7 @@ public class Operation {
         return operation;
     }
 
-    public String getData() {
+    public String[] getData() {
         return data;
     }
 
@@ -27,7 +27,7 @@ public class Operation {
         this.operation = operation;
     }
 
-    public void setData(String data) {
+    public void setData(String[] data) {
         this.data = data;
     }
 
