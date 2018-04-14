@@ -14,4 +14,14 @@ public class ExampleUnitTest {
     public void addition_isCorrect() throws Exception {
         assertEquals(4, 2 + 2);
     }
+
+    @Test
+    public void save_a_operation_in_data_array() {
+        String[] data = {"Lado: 4"};
+
+        Operation op = new Operation("Area del Cuadrado", data, "16");
+        op.save();
+
+        assertEquals(Data.getOperations().size(), 1, 0);
+    }
 }
